@@ -13,6 +13,9 @@
 		D8387904296DF084006EBD27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8387902296DF084006EBD27 /* LaunchScreen.storyboard */; };
 		D8387928296DF289006EBD27 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8387927296DF289006EBD27 /* TabBarController.swift */; };
 		D838792A296DF56F006EBD27 /* PracticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8387929296DF56F006EBD27 /* PracticeController.swift */; };
+		D893D91A296F409C0092AE8D /* PracticeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D919296F409C0092AE8D /* PracticeList.swift */; };
+		D893D91D296F49CE0092AE8D /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D91C296F49CE0092AE8D /* UIView + Extension.swift */; };
+		D893D91F296F4C880092AE8D /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		D8387914296DF084006EBD27 /* WorkingWithDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8387927296DF289006EBD27 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D8387929296DF56F006EBD27 /* PracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeController.swift; sourceTree = "<group>"; };
+		D893D919296F409C0092AE8D /* PracticeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeList.swift; sourceTree = "<group>"; };
+		D893D91C296F49CE0092AE8D /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,38 @@
 				D8387927296DF289006EBD27 /* TabBarController.swift */,
 				D83878FB296DF083006EBD27 /* LessonsController.swift */,
 				D8387929296DF56F006EBD27 /* PracticeController.swift */,
-				D8387900296DF084006EBD27 /* Assets.xcassets */,
+				D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */,
 				D8387902296DF084006EBD27 /* LaunchScreen.storyboard */,
+				D8387900296DF084006EBD27 /* Assets.xcassets */,
 				D8387905296DF084006EBD27 /* Info.plist */,
+				D893D917296F40110092AE8D /* Lessons */,
+				D893D916296F3FFC0092AE8D /* Practice */,
+				D893D91B296F499D0092AE8D /* Extensions */,
 			);
 			path = WorkingWithData;
+			sourceTree = "<group>";
+		};
+		D893D916296F3FFC0092AE8D /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				D893D919296F409C0092AE8D /* PracticeList.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		D893D917296F40110092AE8D /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		D893D91B296F499D0092AE8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D893D91C296F49CE0092AE8D /* UIView + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D893D91F296F4C880092AE8D /* PracticeTableViewCell.swift in Sources */,
 				D8387928296DF289006EBD27 /* TabBarController.swift in Sources */,
 				D83878FC296DF083006EBD27 /* LessonsController.swift in Sources */,
+				D893D91D296F49CE0092AE8D /* UIView + Extension.swift in Sources */,
+				D893D91A296F409C0092AE8D /* PracticeList.swift in Sources */,
 				D838792A296DF56F006EBD27 /* PracticeController.swift in Sources */,
 				D83878F8296DF083006EBD27 /* AppDelegate.swift in Sources */,
 			);
