@@ -62,6 +62,7 @@ extension PracticeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = self.coordinator.searchVC(withId: indexPath.row)
         self.navigationController?.pushViewController(vc, animated: true)
+        self.tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 

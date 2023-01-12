@@ -59,10 +59,10 @@ class PracticeTableViewCell: UITableViewCell {
         self.descriptionPractice.text = lesson.description
         if lesson.status {
             self.statusPractice.image = UIImage(systemName: "checkmark.shield.fill")
-            self.statusPractice.tintColor = .blue
+            self.statusPractice.tintColor = .systemGreen
         } else {
             self.statusPractice.image = UIImage(systemName: "xmark.shield.fill")
-            self.statusPractice.tintColor = .red
+            self.statusPractice.tintColor = .systemOrange
         }
     }
     
