@@ -29,6 +29,8 @@ class PracticeTableViewCell: UITableViewCell {
     private let titlePractice: UILabel = {
         let label = UILabel()
         label.textColor = .black
+        label.font = .systemFont(ofSize: 14)
+        label.numberOfLines = 1
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -41,6 +43,9 @@ class PracticeTableViewCell: UITableViewCell {
     
     private let descriptionPractice: UILabel = {
         let label = UILabel()
+        label.textColor = .gray
+        label.font = .systemFont(ofSize: 10)
+        label.numberOfLines = 3
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -49,10 +54,10 @@ class PracticeTableViewCell: UITableViewCell {
     
     // MARK: - Public func
     
-    func data(title: String, description: String, status: Bool) {
-        self.titlePractice.text = title
-        self.descriptionPractice.text = description
-        if status {
+    func data(lesson: Practice) {
+        self.titlePractice.text = lesson.name
+        self.descriptionPractice.text = lesson.description
+        if lesson.status {
             self.statusPractice.image = UIImage(systemName: "checkmark.shield.fill")
             self.statusPractice.tintColor = .blue
         } else {
@@ -73,16 +78,18 @@ class PracticeTableViewCell: UITableViewCell {
         NSLayoutConstraint.activate([
             titlePractice.topAnchor.constraint(equalTo: self.topAnchor, constant: 16),
             titlePractice.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
+            titlePractice.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -50),
         ])
         
         NSLayoutConstraint.activate([
-            statusPractice.topAnchor.constraint(equalTo: self.topAnchor, constant: 16),
+            statusPractice.topAnchor.constraint(equalTo: self.topAnchor, constant: 12),
             statusPractice.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
         ])
         
         NSLayoutConstraint.activate([
-            descriptionPractice.topAnchor.constraint(equalTo: self.titlePractice.bottomAnchor, constant: 16),
+            descriptionPractice.topAnchor.constraint(equalTo: self.titlePractice.bottomAnchor, constant: 6),
             descriptionPractice.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
+            descriptionPractice.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -50)
         ])
     }
 }
