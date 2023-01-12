@@ -17,6 +17,17 @@
 		D893D91D296F49CE0092AE8D /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D91C296F49CE0092AE8D /* UIView + Extension.swift */; };
 		D893D91F296F4C880092AE8D /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */; };
 		D89976802970128100EA8972 /* LessonsNameList .swift in Sources */ = {isa = PBXBuildFile; fileRef = D899767F2970128100EA8972 /* LessonsNameList .swift */; };
+		D89976882970169C00EA8972 /* FirstPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89976872970169C00EA8972 /* FirstPracticeVC.swift */; };
+		D8B0E5332970330A003E0152 /* PracticeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E5322970330A003E0152 /* PracticeCoordinator.swift */; };
+		D8B0E53629703528003E0152 /* SecondPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E53529703528003E0152 /* SecondPracticeVC.swift */; };
+		D8B0E538297036B8003E0152 /* ThirdPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E537297036B8003E0152 /* ThirdPracticeVC.swift */; };
+		D8B0E53A297036E8003E0152 /* FourthPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E539297036E8003E0152 /* FourthPracticeVC.swift */; };
+		D8B0E53C297036F1003E0152 /* FifthPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E53B297036F1003E0152 /* FifthPracticeVC.swift */; };
+		D8B0E53E297036FC003E0152 /* SixthPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E53D297036FC003E0152 /* SixthPracticeVC.swift */; };
+		D8B0E54029703706003E0152 /* SeventhPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E53F29703706003E0152 /* SeventhPracticeVC.swift */; };
+		D8B0E5422970370F003E0152 /* EighthPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E5412970370F003E0152 /* EighthPracticeVC.swift */; };
+		D8B0E5442970371E003E0152 /* NinthPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E5432970371E003E0152 /* NinthPracticeVC.swift */; };
+		D8B0E54629703725003E0152 /* TenthPracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0E54529703725003E0152 /* TenthPracticeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		D893D91C296F49CE0092AE8D /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
 		D899767F2970128100EA8972 /* LessonsNameList .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LessonsNameList .swift"; sourceTree = "<group>"; };
+		D89976872970169C00EA8972 /* FirstPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E5322970330A003E0152 /* PracticeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCoordinator.swift; sourceTree = "<group>"; };
+		D8B0E53529703528003E0152 /* SecondPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E537297036B8003E0152 /* ThirdPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E539297036E8003E0152 /* FourthPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E53B297036F1003E0152 /* FifthPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E53D297036FC003E0152 /* SixthPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E53F29703706003E0152 /* SeventhPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E5412970370F003E0152 /* EighthPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E5432970371E003E0152 /* NinthPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthPracticeVC.swift; sourceTree = "<group>"; };
+		D8B0E54529703725003E0152 /* TenthPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthPracticeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +137,17 @@
 		D893D916296F3FFC0092AE8D /* Practice */ = {
 			isa = PBXGroup;
 			children = (
-				D893D919296F409C0092AE8D /* PracticeList.swift */,
-				D8387929296DF56F006EBD27 /* PracticeController.swift */,
-				D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */,
+				D8B0E53429703316003E0152 /* MainFiles */,
+				D89976872970169C00EA8972 /* FirstPracticeVC.swift */,
+				D8B0E53529703528003E0152 /* SecondPracticeVC.swift */,
+				D8B0E537297036B8003E0152 /* ThirdPracticeVC.swift */,
+				D8B0E539297036E8003E0152 /* FourthPracticeVC.swift */,
+				D8B0E53B297036F1003E0152 /* FifthPracticeVC.swift */,
+				D8B0E53D297036FC003E0152 /* SixthPracticeVC.swift */,
+				D8B0E53F29703706003E0152 /* SeventhPracticeVC.swift */,
+				D8B0E5412970370F003E0152 /* EighthPracticeVC.swift */,
+				D8B0E5432970371E003E0152 /* NinthPracticeVC.swift */,
+				D8B0E54529703725003E0152 /* TenthPracticeVC.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -136,6 +166,17 @@
 				D893D91C296F49CE0092AE8D /* UIView + Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D8B0E53429703316003E0152 /* MainFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D893D919296F409C0092AE8D /* PracticeList.swift */,
+				D8387929296DF56F006EBD27 /* PracticeController.swift */,
+				D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */,
+				D8B0E5322970330A003E0152 /* PracticeCoordinator.swift */,
+			);
+			name = MainFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,13 +309,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B0E53E297036FC003E0152 /* SixthPracticeVC.swift in Sources */,
 				D893D91F296F4C880092AE8D /* PracticeTableViewCell.swift in Sources */,
 				D8387928296DF289006EBD27 /* TabBarController.swift in Sources */,
+				D8B0E5422970370F003E0152 /* EighthPracticeVC.swift in Sources */,
+				D8B0E54029703706003E0152 /* SeventhPracticeVC.swift in Sources */,
+				D8B0E5442970371E003E0152 /* NinthPracticeVC.swift in Sources */,
+				D89976882970169C00EA8972 /* FirstPracticeVC.swift in Sources */,
+				D8B0E53C297036F1003E0152 /* FifthPracticeVC.swift in Sources */,
+				D8B0E538297036B8003E0152 /* ThirdPracticeVC.swift in Sources */,
+				D8B0E53A297036E8003E0152 /* FourthPracticeVC.swift in Sources */,
 				D83878FC296DF083006EBD27 /* LessonsController.swift in Sources */,
+				D8B0E54629703725003E0152 /* TenthPracticeVC.swift in Sources */,
 				D893D91D296F49CE0092AE8D /* UIView + Extension.swift in Sources */,
+				D8B0E5332970330A003E0152 /* PracticeCoordinator.swift in Sources */,
 				D893D91A296F409C0092AE8D /* PracticeList.swift in Sources */,
 				D89976802970128100EA8972 /* LessonsNameList .swift in Sources */,
 				D838792A296DF56F006EBD27 /* PracticeController.swift in Sources */,
+				D8B0E53629703528003E0152 /* SecondPracticeVC.swift in Sources */,
 				D83878F8296DF083006EBD27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

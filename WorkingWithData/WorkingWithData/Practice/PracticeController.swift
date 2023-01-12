@@ -11,11 +11,14 @@ class PracticeViewController: UIViewController {
     
     private var tableView = UITableView()
     private var practiceList: [Practice] = []
+    private var coordinator = PracticeCoordinator()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        practiceList = featchData()
+        self.title = "Practice"
+        self.navigationController?.navigationBar.prefersLargeTitles = false
+        self.view.backgroundColor = .white
+        self.practiceList = featchData()
         self.configureTableView()
     }
     
@@ -24,8 +27,6 @@ class PracticeViewController: UIViewController {
     // MARK: Private methods
     
     private func configureTableView() {
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-        self.title = "Practice"
         self.view.addSubview(tableView)
         self.tableView.rowHeight = 80
         self.setTableViewDelegates()
@@ -56,6 +57,11 @@ extension PracticeViewController: UITableViewDelegate, UITableViewDataSource {
         let practice = practiceList[indexPath.row]
         cell.data(lesson: practice)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = self.coordinator.searchVC(withId: indexPath.row)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
