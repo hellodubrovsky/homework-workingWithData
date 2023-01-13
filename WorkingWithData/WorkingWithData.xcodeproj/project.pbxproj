@@ -13,6 +13,19 @@
 		D8387904296DF084006EBD27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8387902296DF084006EBD27 /* LaunchScreen.storyboard */; };
 		D8387928296DF289006EBD27 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8387927296DF289006EBD27 /* TabBarController.swift */; };
 		D838792A296DF56F006EBD27 /* PracticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8387929296DF56F006EBD27 /* PracticeController.swift */; };
+		D8799BC929713776008BA5F8 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BC829713776008BA5F8 /* Lesson.swift */; };
+		D8799BCB29713A1B008BA5F8 /* LessonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BCA29713A1B008BA5F8 /* LessonsCollectionViewCell.swift */; };
+		D8799BCD29714040008BA5F8 /* LessonsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BCC29714040008BA5F8 /* LessonsCoordinator.swift */; };
+		D8799BCF2971468F008BA5F8 /* FirstLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BCE2971468F008BA5F8 /* FirstLessonViewController.swift */; };
+		D8799BD2297146B9008BA5F8 /* SecondLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BD1297146B9008BA5F8 /* SecondLessonViewController.swift */; };
+		D8799BD4297146DF008BA5F8 /* ThirdLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BD3297146DF008BA5F8 /* ThirdLessonViewController.swift */; };
+		D8799BD6297146F2008BA5F8 /* FourthLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BD5297146F2008BA5F8 /* FourthLessonViewController.swift */; };
+		D8799BD8297146FB008BA5F8 /* FifthLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BD7297146FB008BA5F8 /* FifthLessonViewController.swift */; };
+		D8799BDA29714707008BA5F8 /* SixthLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BD929714707008BA5F8 /* SixthLessonViewController.swift */; };
+		D8799BDC29714711008BA5F8 /* SeventhLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BDB29714711008BA5F8 /* SeventhLessonViewController.swift */; };
+		D8799BDE29714726008BA5F8 /* EightLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BDD29714726008BA5F8 /* EightLessonViewController.swift */; };
+		D8799BE029714733008BA5F8 /* NinghtLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BDF29714733008BA5F8 /* NinghtLessonViewController.swift */; };
+		D8799BE22971473E008BA5F8 /* TenthLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8799BE12971473E008BA5F8 /* TenthLessonViewController.swift */; };
 		D893D91A296F409C0092AE8D /* PracticeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D919296F409C0092AE8D /* PracticeList.swift */; };
 		D893D91D296F49CE0092AE8D /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D91C296F49CE0092AE8D /* UIView + Extension.swift */; };
 		D893D91F296F4C880092AE8D /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */; };
@@ -58,6 +71,19 @@
 		D8387914296DF084006EBD27 /* WorkingWithDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingWithDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8387927296DF289006EBD27 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D8387929296DF56F006EBD27 /* PracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeController.swift; sourceTree = "<group>"; };
+		D8799BC829713776008BA5F8 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		D8799BCA29713A1B008BA5F8 /* LessonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8799BCC29714040008BA5F8 /* LessonsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsCoordinator.swift; sourceTree = "<group>"; };
+		D8799BCE2971468F008BA5F8 /* FirstLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BD1297146B9008BA5F8 /* SecondLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BD3297146DF008BA5F8 /* ThirdLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BD5297146F2008BA5F8 /* FourthLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BD7297146FB008BA5F8 /* FifthLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BD929714707008BA5F8 /* SixthLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BDB29714711008BA5F8 /* SeventhLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BDD29714726008BA5F8 /* EightLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BDF29714733008BA5F8 /* NinghtLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinghtLessonViewController.swift; sourceTree = "<group>"; };
+		D8799BE12971473E008BA5F8 /* TenthLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthLessonViewController.swift; sourceTree = "<group>"; };
 		D893D919296F409C0092AE8D /* PracticeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeList.swift; sourceTree = "<group>"; };
 		D893D91C296F49CE0092AE8D /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		D893D91E296F4C880092AE8D /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
@@ -134,6 +160,17 @@
 			path = WorkingWithData;
 			sourceTree = "<group>";
 		};
+		D8799BD02971469C008BA5F8 /* MainFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D8799BC829713776008BA5F8 /* Lesson.swift */,
+				D83878FB296DF083006EBD27 /* LessonsController.swift */,
+				D8799BCA29713A1B008BA5F8 /* LessonsCollectionViewCell.swift */,
+				D8799BCC29714040008BA5F8 /* LessonsCoordinator.swift */,
+			);
+			path = MainFiles;
+			sourceTree = "<group>";
+		};
 		D893D916296F3FFC0092AE8D /* Practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +192,17 @@
 		D893D917296F40110092AE8D /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
-				D83878FB296DF083006EBD27 /* LessonsController.swift */,
+				D8799BD02971469C008BA5F8 /* MainFiles */,
+				D8799BCE2971468F008BA5F8 /* FirstLessonViewController.swift */,
+				D8799BD1297146B9008BA5F8 /* SecondLessonViewController.swift */,
+				D8799BD3297146DF008BA5F8 /* ThirdLessonViewController.swift */,
+				D8799BD5297146F2008BA5F8 /* FourthLessonViewController.swift */,
+				D8799BD7297146FB008BA5F8 /* FifthLessonViewController.swift */,
+				D8799BD929714707008BA5F8 /* SixthLessonViewController.swift */,
+				D8799BDB29714711008BA5F8 /* SeventhLessonViewController.swift */,
+				D8799BDD29714726008BA5F8 /* EightLessonViewController.swift */,
+				D8799BDF29714733008BA5F8 /* NinghtLessonViewController.swift */,
+				D8799BE12971473E008BA5F8 /* TenthLessonViewController.swift */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
@@ -313,20 +360,33 @@
 				D893D91F296F4C880092AE8D /* PracticeTableViewCell.swift in Sources */,
 				D8387928296DF289006EBD27 /* TabBarController.swift in Sources */,
 				D8B0E5422970370F003E0152 /* EighthPracticeVC.swift in Sources */,
+				D8799BD2297146B9008BA5F8 /* SecondLessonViewController.swift in Sources */,
 				D8B0E54029703706003E0152 /* SeventhPracticeVC.swift in Sources */,
 				D8B0E5442970371E003E0152 /* NinthPracticeVC.swift in Sources */,
 				D89976882970169C00EA8972 /* FirstPracticeVC.swift in Sources */,
+				D8799BE029714733008BA5F8 /* NinghtLessonViewController.swift in Sources */,
 				D8B0E53C297036F1003E0152 /* FifthPracticeVC.swift in Sources */,
 				D8B0E538297036B8003E0152 /* ThirdPracticeVC.swift in Sources */,
 				D8B0E53A297036E8003E0152 /* FourthPracticeVC.swift in Sources */,
 				D83878FC296DF083006EBD27 /* LessonsController.swift in Sources */,
+				D8799BDC29714711008BA5F8 /* SeventhLessonViewController.swift in Sources */,
+				D8799BD8297146FB008BA5F8 /* FifthLessonViewController.swift in Sources */,
+				D8799BDA29714707008BA5F8 /* SixthLessonViewController.swift in Sources */,
+				D8799BE22971473E008BA5F8 /* TenthLessonViewController.swift in Sources */,
 				D8B0E54629703725003E0152 /* TenthPracticeVC.swift in Sources */,
+				D8799BDE29714726008BA5F8 /* EightLessonViewController.swift in Sources */,
 				D893D91D296F49CE0092AE8D /* UIView + Extension.swift in Sources */,
 				D8B0E5332970330A003E0152 /* PracticeCoordinator.swift in Sources */,
 				D893D91A296F409C0092AE8D /* PracticeList.swift in Sources */,
+				D8799BC929713776008BA5F8 /* Lesson.swift in Sources */,
+				D8799BD4297146DF008BA5F8 /* ThirdLessonViewController.swift in Sources */,
+				D8799BCF2971468F008BA5F8 /* FirstLessonViewController.swift in Sources */,
 				D89976802970128100EA8972 /* LessonsNameList .swift in Sources */,
+				D8799BD6297146F2008BA5F8 /* FourthLessonViewController.swift in Sources */,
 				D838792A296DF56F006EBD27 /* PracticeController.swift in Sources */,
 				D8B0E53629703528003E0152 /* SecondPracticeVC.swift in Sources */,
+				D8799BCB29713A1B008BA5F8 /* LessonsCollectionViewCell.swift in Sources */,
+				D8799BCD29714040008BA5F8 /* LessonsCoordinator.swift in Sources */,
 				D83878F8296DF083006EBD27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
